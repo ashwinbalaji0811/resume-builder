@@ -8,7 +8,10 @@
     "start": "next start",
     "test": "jest --watch",
     "test:ci": "jest --ci",
-    "lint:js": "eslint ."
+    "lint:js": "eslint .",
+    "engines": {
+    "node": "12.x"
+  }
   },
   "dependencies": {
     "@tippyjs/react": "^4.0.0",
